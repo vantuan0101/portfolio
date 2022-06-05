@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1f817b6f.css",
+    "main.js": "/static/js/main.0d37a78b.js",
+    "static/js/787.20d27c81.chunk.js": "/static/js/787.20d27c81.chunk.js",
+    "static/media/avt.JPG": "/static/media/avt.244d5a7aaac8b4e0c08d.JPG",
+    "static/media/logo.svg": "/static/media/logo.9285427be08c2044db31e4abb95be7c3.svg",
+    "static/media/TheScientistRegular.woff2": "/static/media/TheScientistRegular.e6f5e1e893880fe5113d.woff2",
+    "static/media/LEMONMILKProFTR-UltraLight.woff2": "/static/media/LEMONMILKProFTR-UltraLight.ca9879126b33caed22bc.woff2",
+    "static/media/LEMONMILKProFTR-Regular.woff2": "/static/media/LEMONMILKProFTR-Regular.c12d5ee26f4a7101deeb.woff2",
+    "static/media/LEMONMILKProFTR-Bold.woff2": "/static/media/LEMONMILKProFTR-Bold.5acc0abed5f964deb377.woff2",
+    "static/media/Glysa-Medium.woff2": "/static/media/Glysa-Medium.d4a54fbb7f3232384fda.woff2",
+    "index.html": "/index.html",
+    "main.1f817b6f.css.map": "/static/css/main.1f817b6f.css.map",
+    "main.0d37a78b.js.map": "/static/js/main.0d37a78b.js.map",
+    "787.20d27c81.chunk.js.map": "/static/js/787.20d27c81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f817b6f.css",
+    "static/js/main.0d37a78b.js"
+  ]
+}
