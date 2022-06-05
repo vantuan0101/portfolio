@@ -1,0 +1,58 @@
+@import '../../../../assets/scss/import';
+
+.product {
+    width: 100%;
+    height: 100%;
+}
+
+.show {
+    padding: 10px 0;
+}
+.items {
+    padding: 50px 25px;
+    // background-color: #222222;
+    position: relative;
+    z-index: 0;
+    @include md-tablet-desktop {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1000px;
+        grid-gap: 20px;
+        align-items: end;
+    }
+   
+    &::after {
+        content: '';
+        width: 100%;
+        height: 1000px;
+        background-color: #DF7201;
+        position: absolute;
+        bottom: 30%;
+        left: 0;
+        z-index: -1;
+    }
+    @include md-tablet-desktop {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 500px;
+        grid-gap: 20px;
+        align-items: end;
+    }
+    &__img {
+        width: 100%;
+        &:first-child{
+            grid-row: 1/2;
+
+        }
+        &:last-child{
+            @include md-tablet-desktop {
+                // margin-top: 120px;
+                grid-row: 1/3;
+            }
+        }
+        & > img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

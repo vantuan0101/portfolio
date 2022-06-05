@@ -2,76 +2,57 @@
     {
         "id": 1,
         "name": "HaBus Shop",
-        "route": "habusshop",
-        "image": "https://picsum.photos/id/237/500/500",
+        "route": "habus-shop",
+        "image": "https://habusshop.vercel.app/static/media/image1.5c66c347a30e47586be0.jpeg",
         "frontend" : "Van Tuan",
         "backend" : "No",
         "design" : "Van Tuan",
         "auth" : "Van Tuan",
-        "year" : "2022",
-        "detailsImage" : [
-            {
-                "image" :  "https://picsum.photos/id/237/500/500"
-            },
-            {
-                "image" :  "https://picsum.photos/id/237/500/500"
-            },
-            {
-                "image" :  "https://picsum.photos/id/237/500/500"
-            },
-            {
-                "image" :  "https://picsum.photos/id/237/500/500"
-            }
-        ]
+        "year" : "2022"
     },
     {
         "id": 2,
-        "name": "HaBus Shop",
-        "route": "filterjob",
-        "image": "https://picsum.photos/id/237/500/500",
+        "name": "Job Listing",
+        "route": "job-listing",
+        "image": "https://i.ibb.co/K5xDNKD/A-nh-chu-p-Ma-n-hi-nh-2022-06-05-lu-c-17-40-16.png",
         "frontend" : "Van Tuan",
         "backend" : "No",
-        "design" : "Van Tuan",
+        "design" : "Front-end Mentor",
         "auth" : "Van Tuan",
-        "year" : "2022",
-        "detailsImage" : [
-            {
-                "image" :  "https://picsum.photos/id/237/500/500"
-            },
-            {
-                "image" :  "https://picsum.photos/id/237/500/500"
-            },
-            {
-                "image" :  "https://picsum.photos/id/237/500/500"
-            },
-            {
-                "image" :  "https://picsum.photos/id/237/500/500"
-            }
-        ]
+        "year" : "2022"
     },
     {
         "id": 3,
-        "name": "HaBus Shop",
-        "route": "x",
-        "image": "https://picsum.photos/id/237/500/500",
+        "name": "Space Tourism",
+        "route": "space-tourism",
+        "image": "https://i.ibb.co/LCBd5Ks/A-nh-chu-p-Ma-n-hi-nh-2022-06-05-lu-c-17-41-20.png",
         "frontend" : "Van Tuan",
         "backend" : "No",
         "auth" : "Van Tuan",
-        "design" : "Van Tuan",
-        "year" : "2022",
-        "detailsImage" : [
-            {
-                "image" :  "https://picsum.photos/id/237/500/500"
-            },
-            {
-                "image" :  "https://picsum.photos/id/237/500/500"
-            },
-            {
-                "image" :  "https://picsum.photos/id/237/500/500"
-            },
-            {
-                "image" :  "https://picsum.photos/id/237/500/500"
-            }
-        ]
+        "design" : "Front-end Mentor",
+        "year" : "2022"
+    },
+    {
+        "id": 4,
+        "name": "Huddle Landing Page",
+        "route": "huddle-landing-page",
+        "image": "https://i.ibb.co/LYmsZ0X/A-nh-chu-p-Ma-n-hi-nh-2022-06-05-lu-c-17-42-15.png",
+        "frontend" : "Van Tuan",
+        "backend" : "No",
+        "auth" : "Van Tuan",
+        "design" : "Front-end Mentor",
+        "year" : "2022"
+    },
+    {
+        "id": 5,
+        "name": "Dropdown Navigation",
+        "route": "dropdown-navigation",
+        "image": "https://i.ibb.co/23zbg5q/A-nh-chu-p-Ma-n-hi-nh-2022-06-05-lu-c-17-43-05.png",
+        "frontend" : "Van Tuan",
+        "backend" : "No",
+        "auth" : "Van Tuan",
+        "design" : "Front-end Mentor",
+        "year" : "2022"
+        
     }
 ]

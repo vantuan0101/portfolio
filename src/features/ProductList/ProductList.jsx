@@ -29,7 +29,7 @@ const ProductList = ({statusHeader}) => {
                                         speed: -10,
                                     },
                                 ]}
-                                style={{ aspectRatio: '2 / 1', mixBlendMode: 'difference', height: '500px' }}
+                                style={{ aspectRatio: '2 / 1', mixBlendMode: 'difference', height: '500px' ,     objectFit: 'cover' }}
                             />
                         </Link>
                     </div>
