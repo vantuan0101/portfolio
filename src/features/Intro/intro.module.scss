@@ -1,0 +1,111 @@
+@import '../../assets/scss/import';
+.wrap {
+    text-align: center;
+    mix-blend-mode: difference;
+    margin-top: 35%;
+    padding: 0 15px;
+    position: relative;
+
+    @include tablet {
+        padding: 0 25px;
+        margin-top: 21%;
+    }
+    @include desktop {
+        margin-top: 9%;
+        padding: 0px 100px;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        // bottom: -15%;
+        left: 50%;
+        height: 40px;
+        border-left: 1px solid white;
+        transition: all 2s;
+        animation: 2s linear 1s infinite alternate fadeInDown;
+    }
+    &_text {
+        color: white;
+        font-family: 'g', sans-serif;
+        margin: 5px 0;
+        width: 100%;
+        animation: fadeInUp 2s linear;
+        font-size: calc(3.1vw + 3.1vh);
+        line-height: calc(5.2vw + 5.2vh);
+
+        @include tablet() {
+            padding: 0 25px;
+
+            font-size: calc(3vw + 4vh);
+            line-height: calc(5vw + 5vh);
+        }
+        @include desktop() {
+            font-size: calc(3vw + 3vh);
+            line-height: calc(4.8vw + 5.8vh);
+            padding: 0 25px;
+        }
+    }
+}
+
+.special__text {
+    text-shadow: rgb(238 29 82 / 80%) 3px 3px 0px, rgb(105 201 208 / 80%) 3px 4px 0px;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        height: 40px;
+    }
+
+    50% {
+        height: 20px;
+    }
+
+    100% {
+        height: 0px;
+    }
+}
+
+.infor {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    @include tablet {
+        padding: 0 25px;
+        margin-top: 150px;
+    }
+    @include desktop {
+        margin-top: 200px;
+    }
+}
+.avt {
+    width: 200px;
+    height: 200px;
+    & > img {
+        border-radius: 50%;
+        width: 100%;
+    }
+}
+.about {
+    color: white;
+    text-align: center;
+    font-family: 'g', sans-serif;
+    margin-top: 20px;
+    font-size: 25px;
+    @include tablet {
+        font-size: 30px;
+    }
+}
