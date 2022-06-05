@@ -3,11 +3,11 @@ import style from './loader.module.scss';
 const Loader = () => {
     const [text, setText] = useState('Hello!');
     useEffect(() => {
-        const intervalID = setTimeout(() => {
+        const setTextNew = setTimeout(() => {
             setText("I'm Văn Tuấn");
         }, 3000);
 
-        return () => clearInterval(intervalID);
+        return () => clearInterval(setTextNew);
     }, []);
     return (
         <>

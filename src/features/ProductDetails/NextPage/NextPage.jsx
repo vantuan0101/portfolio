@@ -1,20 +1,20 @@
 import React from 'react';
-
-const NextPage = () => {
+import { Link } from 'react-router-dom';
+import style from './next.module.scss';
+const NextPage = ({bgColor , nameNextProject , linkProject}) => {
     return (
-        <section className="nextproject">
-            <div className="nextproject__caption caption">
-                <p className="caption__text">Next project</p>
-                <h2 className="caption__main" id="1">
-                    <a className="link-more">
-                        Food Website
-                        <div className="caption__main-mask" data-text="Food Website"></div>
-                    </a>
-                    <div className="caption__main-image">
-                        <img src="https://www.nghiatran.info/projects/vivo/img1-vivo.jpg" alt="" />
-                    </div>
-                </h2>
-            </div>
+        <section className={style.next__project}
+        style={{backgroundColor : `${bgColor}`}}
+        >
+            <p>Next project</p>
+            <h2>
+                <Link to={`/project/${linkProject}`} className={style.link}>
+                    {nameNextProject}
+                </Link>
+            </h2>
+                <div className={style.image}>
+                    <img src="https://www.nghiatran.info/projects/vivo/img1-vivo.jpg" alt="" />
+                </div>
         </section>
     );
 };
