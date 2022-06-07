@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Loading = ({ bgColor }) => {
+const Loading = ({ bgColor='black' }) => {
     const mystyle = {
         backgroundColor: `${bgColor}`,
         padding: '10px',

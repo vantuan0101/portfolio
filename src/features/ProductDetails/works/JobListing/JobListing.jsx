@@ -2,6 +2,7 @@ import React from 'react';
 import style from './job.module.scss';
 import clsx from 'clsx';
 import NextPage from '../../NextPage/NextPage';
+
 const JobListing = () => {
     return (
         <>

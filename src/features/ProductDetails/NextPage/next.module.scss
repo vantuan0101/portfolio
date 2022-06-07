@@ -9,7 +9,10 @@
     background-color: #640000;
     margin: 0 -15px;
     position: relative;
-
+    @include desktop {
+        width: 100vw;
+        margin-left: -150px;
+    }
     & > p {
         font-family: 'fmain';
         color: #fff;

@@ -1,0 +1,113 @@
+@import '../../assets/scss/import';
+
+.main {
+    padding: 100px 0 20px 0;
+}
+.container {
+    padding: 0 15px;
+    @include md-tablet-desktop {
+        padding: 0 25px;
+    }
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & > h3 {
+        font-family: 'fmain';
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0;
+        font-weight: normal;
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 7px;
+        line-height: normal;
+        @include tablet{
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+    }
+    &__mail {
+        margin-top: 20px;
+        font-size: calc(1vw + 2vh);
+        font-family: 'g';
+        line-height: initial;
+        color: #fff;
+        text-transform: none;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: transparent;
+        -webkit-background-clip: text;
+        position: relative;
+        z-index: 10;
+        white-space: nowrap;
+        transition: 0.4s;
+        -webkit-transition: 0.4s;
+        &:hover{
+            -webkit-text-stroke-color: #fff;
+        }
+        @include tablet{
+            font-size: calc(3vw + 2vh);
+        }
+        @include desktop {
+            font-size: 70px;
+        }
+        &:hover::before{
+            opacity: 0;
+            transition: .4s;
+            -webkit-transition: .4s;
+        }
+        &::before {
+            content: 'huynhvantuan.work@gmail.com';
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0px;
+            height: 110%;
+            -webkit-text-fill-color: #fff;
+            overflow: hidden;
+            opacity: 1;
+            transition: 0.4s;
+            -webkit-transition: 0.4s;
+        }
+    }
+    &__tel {
+        font-family: 'fmain';
+        line-height: initial;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 2.5px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    & > div {
+        font-family: 's';
+        color: #fff;
+        text-transform: none;
+        font-weight: normal;
+
+        font-size: 32px;
+        line-height: 70px;
+        @include tablet{
+            font-size: 50px;
+        }
+    }
+}
+.copy {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'll';
+    line-height: initial;
+    color: #fff;
+    text-transform: none;
+    opacity: 0.6;
+    margin-top: 80px;
+    letter-spacing: 1px;
+    & > h5 {
+        margin: 5px 0 0 0;
+    }
+  
+}

@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import style from './details.module.scss';
-import { Outlet, useParams } from 'react-router-dom';
-import data from '../../../product.json';
-import Loading from '../../../components/Loading/Loading';
 import { AiOutlineArrowRight } from 'react-icons/ai';
-import NextPage from '../NextPage/NextPage';
-const ProductDetails = ({ index }) => {
+import { Outlet } from 'react-router-dom';
+import Loading from '../../../components/Loading/Loading';
+import data from '../../../product.json';
+import style from './details.module.scss';
+const ProductDetails = ({ indexProduct }) => {
     const mainColor = ['#640000', '#222222', '#DF7104', '#734DBB', '#03397F'];
     const [loading, setLoading] = useState(true);
     useEffect(() => {
@@ -17,15 +16,15 @@ const ProductDetails = ({ index }) => {
         };
     }, []);
     window.scrollTo(0, 0);
-
+    // console.log(indexProduct);
     return (
         <>
             {loading ? (
-                <Loading bgColor={mainColor[index - 1]} />
+                <Loading bgColor={mainColor[indexProduct - 1]} />
             ) : (
                 <>
                     {data.map((item, idx) =>
-                        item.id === index ? (
+                        item.id === indexProduct ? (
                             <div className={style.contain} key={item.id}>
                                 <section className={style.header} style={{ backgroundColor: mainColor[idx] }}>
                                     <div>
@@ -70,7 +69,7 @@ const ProductDetails = ({ index }) => {
                                             </div>
                                         </div>
                                         <div className={style.about__link}>
-                                            <a target="_blank" href="https://ui8-unity.herokuapp.com/index.html">
+                                            <a target="_blank" href={item.linkDemo}>
                                                 Visit Website
                                                 <AiOutlineArrowRight />
                                             </a>
