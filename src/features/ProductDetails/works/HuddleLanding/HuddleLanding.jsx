@@ -1,7 +1,6 @@
 import React from 'react';
-import style from './huddle.module.scss';
-import clsx from 'clsx';
 import NextPage from '../../NextPage/NextPage';
+import style from './huddle.module.scss';
 const HuddleLanding = () => {
     return (
         <>
@@ -9,10 +8,10 @@ const HuddleLanding = () => {
                 <section className={style.show}>
                     <div className={style.items}>
                         <div className={style.items__img}>
-                            <img src="https://i.ibb.co/3BcYpF1/huddle1.png" alt="" />
+                            <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-f52e4.appspot.com/o/image%2Fproduct%2Fhuddle%2Fhuddle1.png?alt=media&token=d560419e-0ec6-4442-b3b5-07f19308ccdc" alt="" />
                         </div>
                         <div className={style.items__img}>
-                            <img src="https://i.ibb.co/RHKV2r0/huddle2.png" alt="" />
+                            <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-f52e4.appspot.com/o/image%2Fproduct%2Fhuddle%2Fhuddle2.png?alt=media&token=0e2d3119-b839-4230-ae22-68746190d02f" alt="" />
                         </div>
                     </div>
                 </section>

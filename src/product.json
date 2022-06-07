@@ -3,54 +3,54 @@
         "id": 1,
         "name": "HaBus Shop",
         "route": "habus-shop",
-        "image": "https://i.ibb.co/nmfJWjz/4259925.jpg",
+        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f52e4.appspot.com/o/image%2Fthumb%2Fhabusshop.jpeg?alt=media&token=1a5e7978-1173-4395-b60d-3812444510f2",
         "frontend" : "Van Tuan",
         "backend" : "No",
         "design" : "Van Tuan",
         "auth" : "Van Tuan",
         "year" : "2022",
         "linkDemo" : "https://habusshop.vercel.app/",
-        "videoDemo" : "./assets/video/habusshop"
+        "videoDemo" : "https://firebasestorage.googleapis.com/v0/b/portfolio-f52e4.appspot.com/o/video%2Fhabusshop.mp4?alt=media&token=baf584bd-afcd-4e53-98af-d8cd8c5ecbba"
     },
     {
         "id": 2,
         "name": "Job Listing",
         "route": "job-listing",
-        "image": "https://i.ibb.co/59qyGQ3/3310678.jpg",
+        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f52e4.appspot.com/o/image%2Fthumb%2Fjoblist.jpeg?alt=media&token=65060570-a60d-443a-a282-cd98b40cc021",
         "frontend" : "Van Tuan",
         "backend" : "No",
         "design" : "Front-end Mentor",
         "auth" : "Van Tuan",
         "year" : "2022",
         "linkDemo" : "https://vantuan0101-job-listing.netlify.app/",
-        "videoDemo" : "../src/assets/video/habusshop"
+        "videoDemo" : "https://firebasestorage.googleapis.com/v0/b/portfolio-f52e4.appspot.com/o/video%2Fjoblisting.mp4?alt=media&token=0f2efc77-5ca9-4d32-a2f4-8fd48d88a806"
 
     },
     {
         "id": 3,
         "name": "Space Tourism",
         "route": "space-tourism",
-        "image": "https://i.ibb.co/n8TbWNB/2474066.jpg",
+        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f52e4.appspot.com/o/image%2Fthumb%2Fspace.jpeg?alt=media&token=630eae7a-d1c1-402d-afce-f4f6b36d347b",
         "frontend" : "Van Tuan",
         "backend" : "No",
         "auth" : "Van Tuan",
         "design" : "Front-end Mentor",
         "year" : "2022",
-        "linkDemo" : "https://vantuan0101-space-website.netlify.app"
-
+        "linkDemo" : "https://vantuan0101-space-website.netlify.app",
+        "videoDemo" : "https://firebasestorage.googleapis.com/v0/b/portfolio-f52e4.appspot.com/o/video%2Fspace.mp4?alt=media&token=b9f9837d-2f6f-42c5-8425-00e94df4b1d7"
     },
     {
         "id": 4,
         "name": "Huddle Landing",
         "route": "huddle-landing-page",
-        "image": "https://i.ibb.co/b3qGyf7/4256096.jpg",
+        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f52e4.appspot.com/o/image%2Fthumb%2Fhuddle.jpeg?alt=media&token=049c19c7-f0ea-40c9-ae14-7d60bac39b7c",
         "frontend" : "Van Tuan",
         "backend" : "No",
         "auth" : "Van Tuan",
         "design" : "Front-end Mentor",
         "year" : "2022",
         "linkDemo" : "https://vantuan0101.github.io/fontend-challenges-huddle-landing-page/",
-        "videoDemo" : "../src/assets/video/habusshop"
+        "videoDemo" : "https://firebasestorage.googleapis.com/v0/b/portfolio-f52e4.appspot.com/o/video%2Fhuddle.mp4?alt=media&token=bb0b005d-1696-4d51-9caa-581aab4df960"
 
 
     },
@@ -58,14 +58,14 @@
         "id": 5,
         "name": "Dropdown Nav",
         "route": "dropdown-navigation",
-        "image": "https://i.ibb.co/3NJkZx5/2822.jpg",
+        "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-f52e4.appspot.com/o/image%2Fthumb%2Fdropdown.jpeg?alt=media&token=a3b02a99-ec54-443f-b88c-dc9336706401",
         "frontend" : "Van Tuan",
         "backend" : "No",
         "auth" : "Van Tuan",
         "design" : "Front-end Mentor",
         "year" : "2022",
         "linkDemo" : "https://vantuan0101.github.io/intro-section-with-dropdown-navigation-main/",
-        "videoDemo" : "../src/assets/video/habusshop"
+        "videoDemo" : "https://firebasestorage.googleapis.com/v0/b/portfolio-f52e4.appspot.com/o/video%2Fdropdown.mp4?alt=media&token=3c275b91-d26d-41ff-94c0-09d34774e4a8"
 
 
         
