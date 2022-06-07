@@ -1,8 +1,7 @@
-import clsx from 'clsx';
 import React from 'react';
-import styles from './header.module.scss';
-import logo from '../../assets/photo/logo.svg';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/photo/logo.svg';
+import styles from './header.module.scss';
 const Header = () => {
     return (
         <div className={styles.main}>
