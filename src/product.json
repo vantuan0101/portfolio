@@ -9,7 +9,8 @@
         "design" : "Van Tuan",
         "auth" : "Van Tuan",
         "year" : "2022",
-        "linkDemo" : "https://habusshop.vercel.app/"
+        "linkDemo" : "https://habusshop.vercel.app/",
+        "videoDemo" : "./assets/video/habusshop"
     },
     {
         "id": 2,
@@ -21,7 +22,8 @@
         "design" : "Front-end Mentor",
         "auth" : "Van Tuan",
         "year" : "2022",
-        "linkDemo" : "https://vantuan0101-job-listing.netlify.app/"
+        "linkDemo" : "https://vantuan0101-job-listing.netlify.app/",
+        "videoDemo" : "../src/assets/video/habusshop"
 
     },
     {
@@ -47,7 +49,9 @@
         "auth" : "Van Tuan",
         "design" : "Front-end Mentor",
         "year" : "2022",
-        "linkDemo" : "https://vantuan0101.github.io/fontend-challenges-huddle-landing-page/"
+        "linkDemo" : "https://vantuan0101.github.io/fontend-challenges-huddle-landing-page/",
+        "videoDemo" : "../src/assets/video/habusshop"
+
 
     },
     {
@@ -60,7 +64,9 @@
         "auth" : "Van Tuan",
         "design" : "Front-end Mentor",
         "year" : "2022",
-        "linkDemo" : "https://vantuan0101.github.io/intro-section-with-dropdown-navigation-main/"
+        "linkDemo" : "https://vantuan0101.github.io/intro-section-with-dropdown-navigation-main/",
+        "videoDemo" : "../src/assets/video/habusshop"
+
 
         
     }

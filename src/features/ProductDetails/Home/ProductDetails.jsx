@@ -33,11 +33,10 @@ const ProductDetails = ({ indexProduct }) => {
                                     </div>
 
                                     <div className={style.video}>
-                                        {/* <div> */}
                                         <video
-                                            src="https://www.nghiatran.info/projects/stylepnj/video.mov"
+                                            src={item.videoDemo}
                                             preload="auto"
-                                            // autoPlay={true}
+                                            autoPlay={true}
                                             controls={true}
                                             loop=""
                                             playsInline=""
@@ -45,7 +44,6 @@ const ProductDetails = ({ indexProduct }) => {
                                             x5-playsinline=""
                                             style={{ width: '100%', height: '100%' }}
                                         ></video>
-                                        {/* </div> */}
                                     </div>
                                 </section>
                                 <section className={style.intro}>
