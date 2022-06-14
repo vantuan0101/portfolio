@@ -45,6 +45,8 @@ i18n.use(LanguageDetector)
                     'Designed by': 'Designed by',
                     'Developed by': 'Developed by',
                     'All rights reserved 2022': 'All rights reserved 2022',
+
+                    "Next project":"Next project",
                 },
             },
             cn: {
@@ -83,6 +85,9 @@ i18n.use(LanguageDetector)
                     'Designed by': '设计者',
                     'Developed by': '由开发',
                     'All rights reserved 2022': '版权所有 2022',
+
+                    "Next project":"下一个项目",
+
                 },
             },
             jp: {
@@ -123,6 +128,9 @@ i18n.use(LanguageDetector)
                     'Designed by': 'によって設計された',
                     'Developed by': 'によって開発された',
                     'All rights reserved 2022': '全著作権所有2022',
+
+                    "Next project":"次のプロジェクト",
+
                 },
             },
             kr: {
@@ -162,6 +170,9 @@ i18n.use(LanguageDetector)
                     'Designed by': '에 의해 설계된',
                     'Developed by': '에 의해 개발',
                     'All rights reserved 2022': '판권 소유 2022',
+
+                    "Next project":"다음 프로젝트",
+
                 },
             },
         },
