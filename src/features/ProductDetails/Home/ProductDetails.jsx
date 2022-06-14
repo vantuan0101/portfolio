@@ -3,6 +3,8 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 import { Outlet } from 'react-router-dom';
 import Loading from '../../../components/Loading/Loading';
 import data from '../../../product.json';
+import { Trans } from 'react-i18next';
+
 import style from './details.module.scss';
 const ProductDetails = ({ indexProduct }) => {
     const mainColor = ['#640000', '#222222', '#DF7104', '#734DBB', '#03397F'];
@@ -28,7 +30,7 @@ const ProductDetails = ({ indexProduct }) => {
                             <div className={style.contain} key={item.id}>
                                 <section className={style.header} style={{ backgroundColor: mainColor[idx] }}>
                                     <div>
-                                        <p>Showcase</p>
+                                        <p><Trans>Showcase</Trans></p>
                                         <h2>{item.name}</h2>
                                     </div>
 
@@ -50,25 +52,26 @@ const ProductDetails = ({ indexProduct }) => {
                                     <div className={style.about}>
                                         <div className={style.about__tools}>
                                             <div className={style.tools}>
-                                                <label>Font-end</label>
+                                                <label><Trans>Font-end</Trans></label>
                                                 <p>{item.frontend}</p>
                                             </div>
                                             <div className={style.tools}>
-                                                <label>Back-end</label>
+                                                <label><Trans>Back-end</Trans></label>
                                                 <p>{item.backend}</p>
                                             </div>
                                             <div className={style.tools}>
-                                                <label>Design</label>
+                                                <label><Trans>Design</Trans></label>
                                                 <p>{item.design}</p>
                                             </div>
                                             <div className={style.tools}>
-                                                <label>Year</label>
+                                                <label><Trans>Year</Trans></label>
                                                 <p>{item.year}</p>
                                             </div>
                                         </div>
                                         <div className={style.about__link}>
                                             <a target="_blank" href={item.linkDemo}>
-                                                Visit Website
+                                            <Trans>Visit Website</Trans>
+                                                
                                                 <AiOutlineArrowRight />
                                             </a>
                                         </div>

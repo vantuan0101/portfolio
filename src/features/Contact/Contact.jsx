@@ -1,11 +1,15 @@
 import React from 'react';
 import style from './contact.module.scss';
+import { Trans } from 'react-i18next';
+
 const Contact = () => {
     return (
         <div className={style.main}>
             <div className={style.container}>
                 <div className={style.info}>
-                    <h3>Let’s make something together!</h3>
+                    <h3>
+                        <Trans>Let’s make something together!</Trans>
+                    </h3>
                     <a className={style.info__mail} href="mailto:huynhvantuan.work@gmail.com">
                         huynhvantuan.work@gmail.com
                     </a>
@@ -16,8 +20,13 @@ const Contact = () => {
                 </div>
 
                 <div className={style.copy}>
-                    <h5>Designed by Nghia Tran &amp; Developed by Văn Tuấn</h5>
-                    <h5>All rights reserved 2022</h5>
+                    <h5>
+                        <Trans>Designed by</Trans> Nghia Tran &amp; <Trans>Developed by</Trans> Văn Tuấn
+                    </h5>
+
+                    <h5>
+                        <Trans>All rights reserved 2022</Trans>
+                    </h5>
                 </div>
             </div>
         </div>

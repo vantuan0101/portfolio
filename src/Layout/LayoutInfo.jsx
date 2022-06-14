@@ -1,14 +1,15 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import HeaderInfo from '../components/HeaderInfo/HeaderInfo'
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+import HeaderInfo from '../components/HeaderInfo/HeaderInfo';
 
 const LayoutInfo = () => {
-  return (
-    <div>
-      <HeaderInfo />
+    window.scrollTo(0, 0);
+    return (
+        <div>
+            <HeaderInfo />
             <Outlet />
-    </div>
-  )
-}
+        </div>
+    );
+};
 
-export default LayoutInfo
+export default LayoutInfo;

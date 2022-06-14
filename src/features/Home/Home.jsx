@@ -4,10 +4,9 @@ import Intro from '../Intro/Intro';
 import ProductList from '../ProductList/ProductList';
 import Contact from '../Contact/Contact'
 const Home = () => {
-    
     return (
         <>
-            <Header />
+            <Header  />
             <Intro />
             <ProductList  />
             <Contact />

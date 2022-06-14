@@ -19,7 +19,7 @@ export default function Router() {
             path: '/',
             element: <MainLayout />,
             children: [
-                { element: <Home />, index: true },
+                { element: <Home/>, index: true },
                 {
                     path: 'project',
                     element: <LayoutProduct />,
